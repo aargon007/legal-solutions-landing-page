@@ -9,3 +9,22 @@
     font-size: 18px;
     font-weight: 600;
 }
+/* hover  */
+.nav-link:hover, .dropdown-item:hover{
+    color: #B68C5A;
+}
+/* banner  */
+.law-banner {
+    background-image: url('./images/banner.png'), linear-gradient(0deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+/* card 2 gradient  */
+.card2-gr{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7 !important;
+}
